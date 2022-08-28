@@ -424,21 +424,24 @@ section {
     color: pink;
 }
 
+@media screen and (max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+    section {
+        padding: 3rem 2rem;
+    }
+}
 
 
 
-
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
     .heading {
         font-size: 10vw;
     }
 
     .navbar a {
         padding: 0;
-    }
-
-    .navbar span {
-        display: none;
     }
 
     .navbar a:hover {
@@ -450,55 +453,30 @@ section {
         gap: 2rem;
     }
 
-    .image img {
+    .home .image img {
         height: 30rem;
         width: 30rem;
     }
 
-    .content h3 {
+    .home .content h3 {
         font-size: 3rem;
     }
-    .content span {
+    .home .content span {
             font-size: 2.5rem;
         }
     }
 
-@media (max-width:450px) {
-
-    .heading {
-        font-size: 5vw;
+@media (max-width: 450px) {
+    html {
+        font-size:20%;
+    }
+    .skills .img-container .box h3 {
+        font-size: 5rem;
     }
 
-    .navbar a {
-        padding: 0;
-        
-    }
-
-    .navbar span {
-        display: none;
-    }
-
-    .navbar a:hover {
-        padding-bottom: 1rem;
-    }
-
-    .home {
-        text-align: center;
-        gap: 2rem;
-    }
-
-    .image img {
-        height: 30rem;
-        width: 30rem;
-    }
-
-    .content h3 {
-        font-size: 3rem;
-    }
-    .content span {
-            font-size: 2.5rem;
-        }
-    }
+   
+}
+    
     
 
 
