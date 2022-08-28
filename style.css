@@ -16,6 +16,11 @@ html {
 body {
     background: black;
     padding-bottom: 6.5rem;
+    /* background-image: url('images/bg.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 section {
@@ -88,7 +93,7 @@ a {
     text-align: center;
 }
 
-img {
+.image img {
     height: 50rem;
     width: 50rem;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
@@ -185,6 +190,92 @@ img {
     color: rgb(245, 234, 234);
 }
 
+.history .box h1 {
+
+}
+
+.history .box p {
+    margin: 2rem; padding:2rem;
+    color: white;
+    font-size: 3rem;
+    text-transform: none;
+}
+
+.skills .img-container img{
+    display: block;
+    max-width: 100%;
+}
+
+.skills .box {
+    width: 25%;
+    min-height: 100%;
+    float:left;
+}
+
+.skills .box h3 {
+    padding-bottom: 10rem;
+}
+
+/* .skills .box {
+    float: left;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+} */
+
+.skills h3 {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+}
+
+/* .skills img {
+    display: flex;
+    flex-direction: column;
+} */
+
+
+.education .box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.education .box{
+    flex: 1 1 40rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    padding-left: 3.5rem;  
+    padding-bottom: 2rem;  
+    border-left: 0.1rem solid grey;
+    color: white;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+
+.hobbies .box-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies .box{
+    flex: 1 1 40rem;
+    margin-left: 2rem;
+    padding: 2rem;
+    padding-left: 3.5rem;  
+    padding-bottom: 2rem;  
+    border-left: 0.1rem solid grey;
+    color: white;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+
+
+
 @media (max-width:1400px) {
     font-size: 55%
 }
@@ -223,7 +314,6 @@ img {
             font-size: 2.5rem;
         }
     }
-
 
 @media (max-width:450px) {
     
