@@ -401,19 +401,37 @@ section {
     justify-content: space-evenly;
 
 }
+
 .blog {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    align-content: space-between;
 }
 
-.blog .box p{
-    color:pink;
+.blog .box-container {
+    border: 1px solid white;
+    padding: 5rem;
+}
+
+.blog .box .content p {
+    color: pink;
     font-size: 3rem;
     padding: 2rem;
 }
+
+.blog .box-container .box .content {
+    width: 100%;
+} 
+
+.blog .box-container .box .img-container img{
+   width: 100%
+    
+}
+
+
+
+
 
 .blog a {
     font-size: 2rem;
@@ -466,6 +484,9 @@ section {
         }
     }
 
+    .portfolio .content .box image {
+        display: none;
+    }
 @media (max-width: 450px) {
     html {
         font-size:20%;
